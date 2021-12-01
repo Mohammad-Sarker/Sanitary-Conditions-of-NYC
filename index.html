@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html>
+<head>
 <style>
     body {
         background-color: rgb(227, 188,154);
@@ -17,15 +19,27 @@
         width: 50%;
         height: 50%;
     }
+    * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
 </style>
 
-<h1>Sanitary Conditions of NYC</h1>
-<h2>Mohammad Sarker</h2>
+<h1 style="color:white;">Sanitary Conditions of NYC</h1>
+<h2 style="color:coral;">Mohammad Sarker</h2>
 <div class="row">
   <div class="column">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Rooftop_water_towers_on_New_York_apartment_buildings.jpg" alt="Rooftop Water" style="width:50%">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Rooftop_water_towers_on_New_York_apartment_buildings.jpg" alt="Rooftop Water" style="width:400px;height:300px;">
   </div>
   <div class="column">
-    <img src="https://sitecompli.com/wp-content/uploads/2019/06/2019-SiteCompli-Rodent-Blog-Post-900x600.jpg" alt="Rodent" style="width:50%">
+    <img src="https://sitecompli.com/wp-content/uploads/2019/06/2019-SiteCompli-Rodent-Blog-Post-900x600.jpg" alt="Rodent"style="width:400px;height:300px;">
   </div>
 </div>
