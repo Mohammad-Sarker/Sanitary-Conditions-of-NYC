@@ -1,1 +1,17 @@
-
+body {
+  background-color: rgb(227, 188,154);
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+}
+p {
+  color: gray;
+  text-align: center;
+  font-size: 35px;
+}
+.sanitary-inspection{
+    display: flex;
+    justify-content: center;
+}
