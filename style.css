@@ -22,3 +22,16 @@ p {
 img:hover {
     transform:scale(1.15);
 }
+h3 {
+  text-align: center;
+}
+ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+ul2 {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
