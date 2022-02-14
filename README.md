@@ -2,4 +2,3 @@
 
 https://mohammad-sarker.github.io/Sanitary-Conditions-of-NYC/
 
-@Mohammad-Sarker
